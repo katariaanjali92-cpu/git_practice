@@ -1,0 +1,359 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightPath Tuition Classes</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fffaf0;
+            color: #263247;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #14213d;
+            color: white;
+            padding: 18px 6%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            font-size: 22px;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            min-height: 550px;
+            padding: 80px 6%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 40px;
+            background: linear-gradient(120deg, #edf3ff, #fffaf0);
+        }
+
+        .hero-content {
+            max-width: 600px;
+        }
+
+        .tag {
+            color: #2457c5;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            color: #14213d;
+            line-height: 1.2;
+            margin: 20px 0;
+        }
+
+        .hero h1 span {
+            color: #2457c5;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #667085;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #2457c5;
+            color: white;
+            padding: 14px 25px;
+            margin-top: 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #14213d;
+        }
+
+        .hero-card {
+            background: white;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px #00000015;
+            max-width: 350px;
+            width: 100%;
+        }
+
+        .hero-card h2 {
+            color: #14213d;
+            margin-bottom: 15px;
+        }
+
+        .hero-card ul {
+            padding-left: 20px;
+            color: #667085;
+        }
+
+        section {
+            padding: 70px 6%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-title h2 {
+            font-size: 35px;
+            color: #14213d;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .feature-box {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px #00000010;
+            text-align: center;
+        }
+
+        .feature-box .icon {
+            font-size: 40px;
+        }
+
+        .feature-box h3 {
+            color: #2457c5;
+            margin: 15px 0;
+        }
+
+        .subjects {
+            background: white;
+            text-align: center;
+        }
+
+        .subject-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .subject {
+            background: #edf3ff;
+            color: #2457c5;
+            padding: 15px 25px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .contact {
+            background: #14213d;
+            color: white;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .contact p {
+            margin: 10px 0;
+            color: #d5def0;
+        }
+
+        .contact .btn {
+            background: #ffbd45;
+            color: #14213d;
+        }
+
+        footer {
+            background: #0d172b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media(max-width: 800px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+
+            header {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h2>📘 BrightPath Tuition Classes</h2>
+        <a href="#contact">Enquire Now ↗</a>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+
+        <div class="hero-content">
+            <span class="tag">LEARN • IMPROVE • ACHIEVE</span>
+
+            <h1>
+                Build Confidence.
+                <span>Achieve More.</span>
+            </h1>
+
+            <p>
+                Give your child the support they deserve with
+                clear explanations, individual attention and
+                a positive learning environment.
+            </p>
+
+            <a href="#contact" class="btn">
+                Join Our Classes
+            </a>
+        </div>
+
+        <div class="hero-card">
+            <h2>🎓 Your Success Starts Here</h2>
+
+            <ul>
+                <li>Small Batch Learning</li>
+                <li>Personal Attention</li>
+                <li>Regular Practice</li>
+                <li>Weekly Tests</li>
+                <li>Doubt Clearing Support</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Features Section -->
+    <section>
+
+        <div class="section-title">
+            <h2>Why Choose Us?</h2>
+            <p>A better learning experience for every student.</p>
+        </div>
+
+        <div class="features">
+
+            <div class="feature-box">
+                <div class="icon">👩‍🏫</div>
+                <h3>Personal Attention</h3>
+                <p>
+                    Individual guidance to help students
+                    understand every concept.
+                </p>
+            </div>
+
+            <div class="feature-box">
+                <div class="icon">📝</div>
+                <h3>Practice & Revision</h3>
+                <p>
+                    Regular worksheets, tests and revision
+                    for better academic performance.
+                </p>
+            </div>
+
+            <div class="feature-box">
+                <div class="icon">🌟</div>
+                <h3>Build Confidence</h3>
+                <p>
+                    A friendly environment that encourages
+                    students to achieve their goals.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Subjects Section -->
+    <section class="subjects">
+
+        <div class="section-title">
+            <h2>Subjects We Teach</h2>
+            <p>Quality education for a brighter future.</p>
+        </div>
+
+        <div class="subject-list">
+            <div class="subject">Mathematics</div>
+            <div class="subject">Science</div>
+            <div class="subject">English</div>
+            <div class="subject">Social Science</div>
+            <div class="subject">Computer Studies</div>
+            <div class="subject">All Subjects</div>
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+
+        <h2>Admissions Open!</h2>
+
+        <p>
+            Give your child a stronger start.
+            Join BrightPath Tuition Classes today!
+        </p>
+
+        <p>📍 Address: Add Your Tuition Address</p>
+
+        <p>📞 Contact: +91 00000 00000</p>
+
+        <a href="tel:+910000000000" class="btn">
+            Call Now
+        </a>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © <span id="year"></span>
+            BrightPath Tuition Classes.
+            All Rights Reserved.
+        </p>
+
+        <p>Learn Today. Lead Tomorrow.</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent =
+            new Date().getFullYear();
+    </script>
+
+</body>
+</html>
